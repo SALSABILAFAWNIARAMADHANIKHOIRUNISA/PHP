@@ -1,10 +1,5 @@
 <?php
-$f=4;
-$k=5;
-
-if ($f == 4 || $k == 9){
-  echo "<br><h1> Data Benar</h1>";
-} else {
-  echo "<br><h1> Data Salah</h1>";
-}
+  $tahun = date ("Y");
+  $kabisat = ($tahun%4 == 0) ? "KABISAT" : "BUKAN KABISAT";
+  echo "Tahun <b>$tahun</b> $kabisat";
  ?>
