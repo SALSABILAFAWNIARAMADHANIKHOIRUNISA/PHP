@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>PHP dalam tag HTML</title>
-  </head>
-  <body>
-    <h1>
-      <?php
-        echo "Selamat Datang di SMK Telkom Malang";
-       ?>
-    </h1>
-  </body>
-</html>
+<?php
+  $x='4';
+  $y='5';
+
+  echo "<h3> Hasil Operasi Menggunakan Operator Perbandingan</h3>";
+  echo "x = $x <br>";
+  echo "y = $y <br>";
+  if ($x == $y){
+    echo "x sama dengan y";
+  }
+  else if ($x != $y){
+    echo "x tidak sama dengan y";
+  }
+ ?>
